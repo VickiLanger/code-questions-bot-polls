@@ -25,7 +25,7 @@ REPLIES = (
 )
 
 
-def get_reply():
-    reply_to_tweet = choice(REPLIES)
+def get_poll_reply():
+    reply_to_poll_tweet = choice(REPLIES)
 
-    return reply_to_tweet
+    return reply_to_poll_tweet
